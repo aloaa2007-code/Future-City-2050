@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future City Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html">Future City <span>2050</span></a>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="buildings.html">Buildings</a>
+      <a href="transportation.html">Transport</a>
+      <a href="energy.html">Energy</a>
+      <a href="infrastructure.html">Infrastructure</a>
+      <a href="healthcare.html">Healthcare</a>
+      <a href="map.html">Map</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="build-city.html">Build City</a>
+      <button class="mode-btn" id="modeBtn">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+
+  <div class="container">
+
+    <span class="badge">🗺️ EXPLORE</span>
+
+    <h1>Future City Map</h1>
+
+    <p>
+      Click a location marker to explore important areas
+      of our fictional smart city.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="container">
+
+    <div class="map">
+
+      <div class="road r1"></div>
+      <div class="road r2"></div>
+
+      <div class="zone z1">🏢 Smart District</div>
+      <div class="zone z2">☀️ Energy District</div>
+      <div class="zone z3">🏥 Health District</div>
+      <div class="zone z4">🚗 Mobility Hub</div>
+
+      <button class="marker m1"
+        onclick="alert('Smart Buildings: AI-powered offices and homes.')">
+        🏢
+      </button>
+
+      <button class="marker m2"
+        onclick="alert('Solar Energy Center: Renewable power and energy storage.')">
+        ☀️
+      </button>
+
+      <button class="marker m3"
+        onclick="alert('Smart Hospital: Digital healthcare and telemedicine.')">
+        🏥
+      </button>
+
+      <button class="marker m4"
+        onclick="alert('EV Station: Fast charging for electric vehicles.')">
+        🔋
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <strong>Future City 2050</strong><br>
+    Building Smarter Cities for a Better Tomorrow 🌍
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

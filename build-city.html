@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build Your Future City</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html">Future City <span>2050</span></a>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="buildings.html">Buildings</a>
+      <a href="transportation.html">Transport</a>
+      <a href="energy.html">Energy</a>
+      <a href="infrastructure.html">Infrastructure</a>
+      <a href="healthcare.html">Healthcare</a>
+      <a href="map.html">Map</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="build-city.html">Build City</a>
+      <button class="mode-btn" id="modeBtn">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+
+  <div class="container">
+
+    <span class="badge">⭐ BUILD YOUR CITY</span>
+
+    <h1>Build Your Future City</h1>
+
+    <p>
+      Choose your technologies and discover your Smart City Score.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="container">
+
+    <div class="builder">
+
+      <div class="form-group">
+
+        <label for="energyChoice">
+          Energy Source
+        </label>
+
+        <select id="energyChoice">
+
+          <option value="solar">
+            Solar Energy
+          </option>
+
+          <option value="wind">
+            Wind Power
+          </option>
+
+          <option value="mixed">
+            Mixed Renewable Energy
+          </option>
+
+        </select>
+
+      </div>
+
+      <div class="form-group">
+
+        <label for="transportChoice">
+          Transportation System
+        </label>
+
+        <select id="transportChoice">
+
+          <option value="autonomous">
+            Autonomous Vehicles
+          </option>
+
+          <option value="electric">
+            Electric Public Transport
+          </option>
+
+          <option value="smart">
+            Smart Transportation
+          </option>
+
+        </select>
+
+      </div>
+
+      <div class="form-group">
+
+        <label for="buildingChoice">
+          Building Type
+        </label>
+
+        <select id="buildingChoice">
+
+          <option value="smart">
+            Smart Residential Buildings
+          </option>
+
+          <option value="green">
+            Green Buildings
+          </option>
+
+          <option value="ai">
+            AI-Powered Buildings
+          </option>
+
+        </select>
+
+      </div>
+
+      <button class="btn" id="buildBtn">
+        Calculate My City Score
+      </button>
+
+      <div class="result" id="buildResult">
+
+        <h2>Your Smart City Score</h2>
+
+        <div class="score-grid">
+
+          <div class="score">
+            Sustainability
+            <strong id="sustainability">0%</strong>
+          </div>
+
+          <div class="score">
+            Technology Level
+            <strong id="technology">0%</strong>
+          </div>
+
+          <div class="score">
+            Energy Efficiency
+            <strong id="efficiency">0%</strong>
+          </div>
+
+        </div>
+
+        <div class="counter" style="margin-top:18px">
+
+          <p>Overall Score</p>
+
+          <div class="counter-number" id="overall">
+            0%
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <strong>Future City 2050</strong><br>
+    Building Smarter Cities for a Better Tomorrow 🌍
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
